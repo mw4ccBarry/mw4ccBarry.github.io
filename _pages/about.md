@@ -5,9 +5,6 @@ permalink: /about/
 author_profile: true
 comments: true
 ---
-
-## This is my About Me page.
-
 * Welcome to my personal site.
 
 * My name is Mingjun Wang and I often go by Barry. I currently worked as Senior Business Analyst in Predictive Analytics at Expedia. I have three and half years experiences in marketing research and custom data analysis with online behavior data. Before that, I have two and half years experiences with text mining and predictive modeling research for using Twitter for next Place prediction, with an application to crime prediction. 
