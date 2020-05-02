@@ -106,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mingjun Wang"
+  name             : "Barry Wang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Product Analytics and Optimization"
   location         : "Chicago, IL"
-  email            : "barrywang0329@gmail.com"
+  email            : # "barrywang0329@gmail.com"
   links:
     - label: "barrywang0329@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:barrywang0329@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://mw4ccbarry.github.io/about/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/mw4ccBarry"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

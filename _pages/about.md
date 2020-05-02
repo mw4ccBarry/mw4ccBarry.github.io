@@ -13,5 +13,5 @@ comments: true
 
 * Some fun fact about me:
     * I have a Corgi born in Sep 20, 2018 named Oskar
-    * I have lived in 7 cities in 2 countries for more than 3 years each in the past 25 years
+    * I have lived in 7 cities in 2 countries for more than 3 years each in the past 25 years while I live in Chicago now
     * I have a beautiful wife who I met in 15 years old :)
