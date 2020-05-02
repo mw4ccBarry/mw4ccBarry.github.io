@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Barry Wang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/teaser.jpg"
   bio              : "Product Analytics and Optimization"
   location         : "Chicago, IL"
   email            : # "barrywang0329@gmail.com"
