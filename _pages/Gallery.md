@@ -25,14 +25,14 @@ gallery3:
   - url: /assets/images/gallery/Life1.jpg
     image_path: /assets/images/gallery/Life1.jpg
     title: "Good displays"
-  - url: /gallery/Life2.jpg
+  - url: /assets/images/gallery/Life2.jpg
     image_path: /assets/images/gallery/Life2.jpg
     title: "Quiet place"  
-  - url: /gallery/Life3.jpg
+  - url: /assets/images/gallery/Life3.jpg
     image_path: /assets/images/gallery/Life3.jpg
     title: "Paintings"
 gallery4:
-  - url: /gallery/Travel1.jpg
+  - url: /assets/images/gallery/Travel1.jpg
     image_path: /assets/images/gallery/Travel1.jpg
     title: "Random in South Africa"
 ---
