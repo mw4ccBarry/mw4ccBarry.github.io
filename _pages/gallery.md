@@ -32,8 +32,8 @@ gallery3:
     image_path: /assets/images/gallery/Life3.jpg
     title: "Paintings"
 gallery4:
-  - url: /assets/images/gallery/Travel1.jpg
-    image_path: /assets/images/gallery/Travel1.jpg
+  - url: /assets/images/gallery/Travel2.jpg
+    image_path: /assets/images/gallery/Travel2.jpg
     title: "Random in South Africa"
 ---
 
