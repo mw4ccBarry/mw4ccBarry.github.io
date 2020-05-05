@@ -9,8 +9,6 @@ comments: true
 
 * My name is Mingjun Wang and I often go by Barry. I currently work as the analytics manager for product optimization and web analytics at Expedia Group for the lodging shopping path. In the past, I have some professional work experience in product analytics and marketing research as well as some research experience in text mining and predictive modeling with a publication of text mining and predictive modeling research for using Twitter for next Place prediction, with an application to crime prediction. 
 
-* I currently live in Chicago and look for new opportunites/Friends/Experiences in my life every day. Feel free to connect with me for playing tennis, compete in Kaggle, fun projects with Arduino, Corgi things, Food, etc...
-
 * Some fun fact about me:
     * I have a Corgi born in Sep 20, 2018 named Oskar
     * I have lived in 7 cities in 2 countries for more than 3 years each in the past 25 years while I live in Chicago now
