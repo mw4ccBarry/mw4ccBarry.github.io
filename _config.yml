@@ -19,13 +19,13 @@ locale                   : "en-US"
 title                    : "Barry Wang"
 title_separator          : "-"
 name                     : "Barry Wang"
-description              : "Barry Wang's Personal Website"
+description              : "Barry Wang"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/profile.jpg"
-masthead_title           : "Barry Wang"
+masthead_title           : "Barry Wang's Place"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
