@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 comments: true
 ---
-* Welcome to my personal site. ![Link to my Resume](h/assets/Resume/MingjunBarryWang_Resume_Expedia.pdf)
+* Welcome to my personal site. ![Link to my Resume](/assets/Resume/MingjunBarryWang_Resume_Expedia.pdf)
 
 
 * My name is Mingjun Wang and I often go by Barry. I currently work as the analytics manager for product optimization and web analytics at Expedia Group for the lodging shopping path. In the past, I have some professional work experience in product analytics and marketing research as well as some research experience in text mining and predictive modeling with a publication of text mining and predictive modeling research for using Twitter for next Place prediction, with an application to crime prediction. 
