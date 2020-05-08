@@ -12,7 +12,10 @@ comments: true
 
 ### Why the benefit of having this personal website?
 
+Personally, I found this is a good place to put together my thoughts and the resources. Professionally, it is also a good learning opportinity to practice organizing, writing and even built something interesting in the spare time.
+
 ### How to make this?
+
 
 ### What are going to be added in the future?
 

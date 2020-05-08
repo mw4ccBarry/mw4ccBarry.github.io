@@ -16,4 +16,4 @@ comments: true
     * I have a beautiful wife who I met in 15 years old :)
 
 
-<embed src="https://opendatasurgeon.github.io/images/mihir_resume_2020_git.pdf" width= "840" height= "900" type="application/pdf"/>
+<embed src="https://mw4ccbarry.github.io/assets/Resume/MingjunBarryWang_Resume_Expedia.pdf" width= "840" height= "900" type="application/pdf"/>
