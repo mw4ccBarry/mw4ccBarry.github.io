@@ -17,12 +17,12 @@ comments: true
 **Thinking Process for the Above questions**
 
 - What is the impact due to some situations?
-    1. Understand the impacted stakeholders
-    2. Came up with the hypothesis
-    3. Difference in differences to mimic the experimental research
-        - Propensity score matching
-        - Pre Post with Causal Impact
-    4. Conclusions and actions
+1. Understand the impacted stakeholders
+2. Came up with the hypothesis
+3. Difference in differences to mimic the experimental research
+- Propensity score matching
+- Pre Post with Causal Impact
+4. Conclusions and actions
 - How do you estimate the profit or revenue of a product?
 - How to launch a product?
 - How to add a featue?
