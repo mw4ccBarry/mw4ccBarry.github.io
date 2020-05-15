@@ -16,7 +16,7 @@ comments: true
 
 **Thinking Process for the Above questions**
 
-*What is the impact due to some situations?*
+- What is the impact due to some situations?
     1. Understand the impacted stakeholders
     2. Came up with the hypothesis
     3. Difference in differences to mimic the experimental research
