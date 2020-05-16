@@ -3,7 +3,7 @@ title:  "Thoughts about Product Analytics"
 date:   2020-5-15
 author_profile: true
 comments: true
-ayout: single
+layout: single
 classes: wide
 ---
 **What types of questions are answered by the product analytics team?**
@@ -12,7 +12,7 @@ classes: wide
 - How to do customer segmentation?
 - How to launch a product?
 - How to add a featue?
-- What is the root cause of the drop in a metric?
+- What is the root cause of the sudden dramatic change in the metric?
 - How do you measure the success of a product?
 - How to prioritize the features for the product development?
 - How to evaluate the user acquisition with cost and retention?
