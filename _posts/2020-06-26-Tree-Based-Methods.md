@@ -1,7 +1,5 @@
-Tree-Based Methods
-=======
 Overview
-=======
+==========
 **Segment the predictor space** into a number of regions and use the **mean or mode of the observations in the region** for prediction. The segment/spliting rules can be summarized in a tree so the method is named as decision tree methods.
 
 
