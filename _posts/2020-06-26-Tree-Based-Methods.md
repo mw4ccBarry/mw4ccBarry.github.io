@@ -4,6 +4,8 @@ date:   2020-6-27
 author_profile: true
 comments: true
 classes: wide
+header:
+  teaser: /assets/images/decision_tree.png
 ---
 
 Overview
