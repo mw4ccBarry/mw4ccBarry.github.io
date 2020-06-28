@@ -18,6 +18,7 @@ Personally, I found this is a good place to put together my thoughts and the res
 
 
 ### What are going to be added in the future?
+- Practice writing
 - Reading note
 - Side project
 - Life and fun
