@@ -7,6 +7,7 @@ layout: single
 classes: wide
 ---
 
+
 **What types of questions are answered by the product analytics team?**
 - What is the impact due to some situations?
 - How do you estimate the profit or revenue of a product?

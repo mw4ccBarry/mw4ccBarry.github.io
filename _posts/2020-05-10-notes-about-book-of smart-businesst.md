@@ -10,7 +10,7 @@ classes: wide
 
 Embrace new technology to connect all your players and redeisgn industries.
 
-Smart Business = Data Intelligence + Network Coordination
+$$Smart\ Business = Data\ Intelligence + Network\  Coordination$$
 
 - **Data Intelligence**: Enable large scale business networks
 - **Network Coordination**: Ensure efficient operations and decisions

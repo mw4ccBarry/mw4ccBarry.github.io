@@ -14,10 +14,13 @@ comments: true
 
 Personally, I found this is a good place to put together my thoughts and the resources. Professionally, it is also a good learning opportinity to practice organizing, writing and even built something interesting in the spare time.
 
-### How to make this?
+### How to use this minimal mistakes theme?
 
 
 ### What are going to be added in the future?
+- Reading note
+- Side project
+- Life and fun
 
 
 

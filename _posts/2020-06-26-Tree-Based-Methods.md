@@ -85,7 +85,13 @@ $$E = 1 - \max_k(\hat{p}_{mk})$$
 There are 2 other preferable metrics, Gini index and Entropy. Note: following Gini index is purity so that it will be substract from 1 to get impurity.
 
  $$G=\sum_{k=1}^K\hat{p}_{mk}(1-\hat{p}_{mk})$$
+
+Belowe is Entropy:
+
  $$D=-\sum_{k=1}^K\hat{p}_{mk}\log\hat{p}_{mk}$$
+
+Below is the information gain using Entropy:
+
  $$Infomation\ Gain(split) = Entropy(parent) - (weighted) Average\ Entropy(Children)$$
 
 Gini index measure the total variance across K classes so that it measures the node purity which suggests the node contains predominantly observations from one class.Gini index and Entropy is better than classification error in building the tree because classification error is **not sensitive enough** so that the tree may not grow as expected. Classification error can be used for pruning better than other metrics as it will be better align with our classification problem. 
@@ -97,6 +103,45 @@ In the work of [Theoretical comparison between the gini index and information ga
 
 Bagging
 ========
-Introduce bootstrap aggregation or bagging to reduce the high variance introduced by the method. 
+Introduce bootstrap aggregation or bagging to reduce the high variance introduced by the tree method. We do bootstrap by taking repeated sample from the single training data sets as described as the following function,
+
+$$\hat{f}_{bag}x=\frac{1}{B}\sum_{b=1}^B\hat{f}^{*b}(x)$$
+
+Basically, the method constructed B regression trees using B bootstrapped training sets and average the predictions. The trees are grown deep without pruned which have high variance and low bias. The method could get average for regression and majoriry vote for classification. 
+
+
+Each bagged tree makes use of 2/3 of the obvervations. For the given bagged tree, the method can use the remaining ovservations to get out-of-bag observations. We can then average those predicted responses and evaluate the OOB MSE or OOB classification error. With B to be large, the OOB error is equivalent to leave-one-out cross-validation error.
+
+The prediction accuracy is improved at the expense of interpretability. For bagging, the feature importance can be obtained with adding up the total amount that the Gini index is decreased by splits over a given predictor, averaged over all B trees. Same for using RSS for regression trees.
+
+**Issue:** All bagged trees are similar and highly correlated as all trees will use the strong predictor in the top split. 
+
+Random Forest
+=======
+Random forest improved bagging by reduce the correlation among trees by limiting the number of features used in each split. The feature importance of random forest is evaluated as the decrease in node impurity weighted by the probability of reaching that node.A random sample of m predictors is chosen by each split.Typically, m is chosed as,
+
+$$m\approx\sqrt{p}$$
+
+Random forest is just the bagging method when m = p. Random forest helps a lot when the data includes a large number of correlated predictors. Accuracy of a single tree is ~50%. 
+
+Boosting
+======
+Trees are grown sequentially as each tree is grown using information from previously grown tree. Boosting intends to build smaller trees and learns slowly. Given the current model, we fit a decisiton trees to the reiduals from the model. The new tree is added into the fitted function to update the residuals. 
+
+Tuning parameters include:
+- number of trees B
+- shrinkage parameter
+- number d of splits in each tree
+
+Algorithm:
+- Start with fitting Y
+- For 1,2,...B
+  - Fit tree with d splits to the updated residuals with the shrinkage parameter
+  - Add new tree to the model
+  - update residuals
+- Output the boosted model with shrinkage factor
+
+Code (to be added)
+=======
 
 

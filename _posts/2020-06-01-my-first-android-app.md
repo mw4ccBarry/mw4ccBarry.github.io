@@ -7,7 +7,11 @@ classes: wide
 ---
 
 Build my first Android Application
-==================================
+=========
+- Android Studio
+- Emulator
+- UI
+- Views
 
 
 
