@@ -1,9 +1,15 @@
 # main links
 main:
+  - title: "Home"
+    url: /index.html
   - title: "About"
     url: /about/
   - title: "Blogs"
     url: /blog/
+  - title: "Blogs"
+    url: /blog/
+  - tittle: "Resume"
+    url: /assets/Resume/BarryMingjunWang_Oct20.pdf
   - title: "Gallery"
     url: /gallery/
   # - title: "Sample Posts"

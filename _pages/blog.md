@@ -4,6 +4,7 @@ layout: archive
 permalink: /blog/
 author_profile: true
 comments: true
+classes: wide
 ---
 
 This is going to be my blog page.
