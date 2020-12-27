@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Blogs"
     url: /blog/
-  - title: "Blogs"
-    url: /blog/
+  - title: "Portfolio"
+    url: /portfolio/
   - tittle: "Resume"
     url: /assets/Resume/BarryMingjunWang_Oct20.pdf
   - title: "Gallery"
