@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 date: Jan 1, 2021
 
-feature_row:
+feature_row1:
   - image_path: assets/images/flight_visualize.png
     alt: "Flight delay rate map"
     title: "Flight Delay Prediction and Visualization"
@@ -26,4 +26,4 @@ feature_row:
 
 Here I present selected projects that show my **Analytics and Data Science skills for solving product and business problems**. 
 
-{% include feature_row %}
+{% include feature_row id="feature_row1" type="left" %}
