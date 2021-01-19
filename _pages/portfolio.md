@@ -17,11 +17,7 @@ feature_row1-1:
     tags: 
         - Predictive Modeling
         - Visualization
-        - Flight
         - D3
-        - Flask
-        - Python
-        - JavaScript
 
 # feature_row1-2:
 #   - image_path: /assets/images/portfolio/retention_rates.png
@@ -154,6 +150,4 @@ Here I present selected projects that show my **Analytics and Data Science skill
 
 &nbsp;
 {% include feature_row id="feature_row1-1" type="left" %}
-<a name="Flight-Delay-Prediction-and-Visualization"></a> 
-<!-- {% include feature_row id="feature_row5" type="left" %} -->
-
+{% include feature_row id="feature_row1-1" type="left" %}
