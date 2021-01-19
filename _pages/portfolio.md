@@ -20,15 +20,12 @@ feature_row1:
         - D3
 
 feature_row2:
-  - image_path: assets/images/posts/starbucks-cluster-conversion-rates.png
+  - image_path: assets/images/flight_visualize.png
     alt: "Clusterisation results based on Conversion Rates"
     title: "Target Audience for Starbucks Rewards App"
     text: "In this project, I analyzed the customer behavior in the Starbucks Rewards Mobile App. After signing up for the app, customers receive promotions every few days. The task was to identify which customers are influenced by promotional offers the most and what types of offers to send them in order to maximize the revenue. I used PCA and K-Means clustering to arrive at 3 customer segments (Disinterested, BOGO, Discount) based on Average Conversion Rates and explored their demographic profiles and shopping habits."
     url: "https://github.com/k-bosko/Starbucks_rewards"
     btn_label: "Code + Presentation"
-    btn_class: "btn--primary"
-    url2: "/Starbucks-Rewards-Program/"
-    btn_label2: "Technical Report"
     btn_class: "btn--primary"
     tags: 
         - Marketing
