@@ -8,7 +8,7 @@ main:
     url: /blog/
   - title: "Portfolio"
     url: /portfolio/
-  - tittle: "Resume"
+  - title: "Resume"
     url: /assets/Resume/BarryMingjunWang_Oct20.pdf
   - title: "Gallery"
     url: /gallery/

@@ -140,8 +140,3 @@ Algorithm:
   - Add new tree to the model
   - update residuals
 - Output the boosted model with shrinkage factor
-
-Code (to be added)
-=======
-
-
