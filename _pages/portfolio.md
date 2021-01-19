@@ -14,10 +14,6 @@ feature_row:
     url: "https://github.com/mw4ccBarry/Predict_Flight_Status_and_Delay_Visualization"
     btn_label: "Repository"
     btn_class: "btn--primary"
-    tags: 
-        - Predictive Modeling
-        - Visualization
-        - D3
 
 ---
 
