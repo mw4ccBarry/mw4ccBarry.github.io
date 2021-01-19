@@ -9,7 +9,7 @@ date: Jan 1, 2021
 feature_row:
   - image_path: assets/images/flight_visualize.png
     alt: "Flight delay rate map"
-    title: "Flight Delay Prediction and Visualization"
+    title: "Flight Delay Prediction"
     text: "The goal of this project is to help travelers to better plan their trips with better understanding of the flight schedule. This web application includes two part with visualizing the historical flight delay condition and prediciting the flight delay with flight information and weather forcasting."
     url: "https://github.com/mw4ccBarry/Predict_Flight_Status_and_Delay_Visualization"
     btn_label: "Repository"
