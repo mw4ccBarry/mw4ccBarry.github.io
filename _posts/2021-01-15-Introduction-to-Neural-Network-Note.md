@@ -13,8 +13,26 @@ Linear Classiferers and Gradient Descent
 - Improve their performance
 - on some task(s)
 - Based on expereince (typically data)
-- **Types of learning**:
+- **Supervised/Unsupervised/Reinforcement**:
     - Supervised Learning (Input Data and Label to get Learning Output)
-    - 
-Supervised learning/Unsupervised Learning
+    - Unsupervised Learning (Input Data and **NO** Label to get Learning Output)
+    - Reinforcement Learning (Supervision in form of reward)
+- **Non-Parametric Model/Paremetric Model**:
+    - Non-parametric: No explict model for the function
+        - Nearest Neighbor, Decision Tree
+    - Paremetric: Explicitly model the function in the form of a parametrized function
+        - Logistic Regression, Neural Network
+
+
+*Keyword*: Feature Engineering, High Dimention data to Low Dimention data   
+
+**Components of a Parametric Learning Algorithm**
+- Input/Representation
+- Functional Form of the model (with parameters)
+- Performance measure to improve
+    - Loss or objective function
+- Algorithm for finding best parameters
+    - Optimization algorithm
+
+*Keyword*: Linear Regression and Classification
 
