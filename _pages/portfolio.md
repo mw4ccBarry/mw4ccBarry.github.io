@@ -4,7 +4,6 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 classes: wide
-date: Jan 1, 2021
 
 feature_row1:
   - image_path: assets/images/flight_visualize.png
