@@ -168,12 +168,25 @@ Backward Pass is a recursive algorithm
 
 
 **Backpropagation and Automatic Differentiation**
+- Backpropagation can be applied to any directed acyclic graph (DAG)
+- Given the ordering, we can iterate from the last module backwards applying the chain rule
+    - store the gradiet outputs for each node for efficient computation
+- reverse-mode automatic differentiation
+- **Computation = Graph**
+    - Input = Data + Parameters
+    - Output = Loss
+    - Scheduling = Topological ordering
+    - Auto-Diff
+        - Implementing chain-rule on computation graphs
+    - Find partial derivative of output with respect to all intermediate variables
+    - **Patterns of Gradient Flow**
+        - Multiplication is a gradient switcher
+        - Max select which path to push the gradient through
+    - If gradients do now flow backward, stop or slow to learn
+    - Explicitly store computation graph in memory and corrsponding gradient functions
+    - Nodes brokend down to basic primitive computations (addition, multiplication, log) for which corresponding derivative is known
+    - We can also do forward mode automatic differentiation starting from inputs and propagate gradients forward. Most cases have large inputs/images and outputs/loss are small.
 
-
-
-
-
-
-
-
-
+**Note1: Back-propagation uses the dynamically built graph with torch.autograd**
+**Note2: Computation graphs are not limited to mathmatical functions but can have control flows through differentiable programming**
+**Note3: Check Matrix Calculas for Deep Learning for tensor and derivatives for backpropagation**
