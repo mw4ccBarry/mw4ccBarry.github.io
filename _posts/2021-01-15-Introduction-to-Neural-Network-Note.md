@@ -1,5 +1,5 @@
 ---
-title:  "Introduction to Neural Networks (OmSCS Deep Learning Course Mote 1)"
+title:  "Introduction to Neural Networks (OMSCS Deep Learning Course Mote 1)"
 date:   2021-01-15
 author_profile: true
 comments: true
@@ -188,5 +188,9 @@ Backward Pass is a recursive algorithm
     - We can also do forward mode automatic differentiation starting from inputs and propagate gradients forward. Most cases have large inputs/images and outputs/loss are small.
 
 **Note1: Back-propagation uses the dynamically built graph with torch.autograd**
+
+
 **Note2: Computation graphs are not limited to mathmatical functions but can have control flows through differentiable programming**
+
+
 **Note3: Check Matrix Calculas for Deep Learning for tensor and derivatives for backpropagation**
